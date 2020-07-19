@@ -543,11 +543,13 @@ footer .copyright span {
 
 	.mobile details {
 		width: 100%;
+		font-size: 32px;
 	}
 
 	.mobile summary {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 	}
 
 	.mobile summary::-webkit-details-marker {
@@ -555,7 +557,7 @@ footer .copyright span {
 	}
 
 	menu {
-		text-align: right;
+		text-align: center;
 	}
 
 	menu a {
@@ -595,6 +597,14 @@ footer .copyright span {
 	}
 
 	.wrapper_works button {
+		font-size: 32px;
+	}
+
+	.wrapper_works p{
+		font-size: 32px;
+	}
+
+	.menu_all ul li a{
 		font-size: 32px;
 	}
 
@@ -655,4 +665,28 @@ footer .copyright span {
 	.wrapper_posts p{
 		font-size: 32px;
 	}
+	.wrapper_posts button{
+		font-size: 32px;
+	}
+
+	.wrapper_form h1 {
+		font-size: 50px;
+	}
+	.contact .wrapper_form p{
+		font-size: 40px;
+		width: 100%;
+	}
+
+	.contact .wrapper_form form{
+		width: 100%;
+	}
+	.contact .wrapper_form form input{
+		/* height: 5vh; */
+		font-size: 32px;
+	}
+	.contact .wrapper_form form textarea{
+		font-size: 32px;
+	}
+
+	
 }
