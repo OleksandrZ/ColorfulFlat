@@ -602,6 +602,8 @@ footer .copyright span {
 
 	.wrapper_works p{
 		font-size: 32px;
+		width: 80%;
+		margin: auto;
 	}
 
 	.menu_all ul li a{
