@@ -573,4 +573,29 @@ footer .copyright span {
 		background: #3a494c;
 		color: #a5d2da;
 	}
+
+	.mobile_header{
+		flex-direction: column;
+	}
+
+	.wrapper_flat{
+		flex-direction: column;
+	}
+	.wrapper_flat .wrapper_design img{
+		width: 50%;
+	}
+	.wrapper_flat .wrapper_design h4{
+		font-size: 70px;
+	}
+	.wrapper_flat .wrapper_design p{
+		font-size: 60px;
+	}
+
+	.wrapper_templete .templete_box{
+		flex-direction: column;
+		text-align: center;
+	}
+	.templete_box.mobile_template{
+		flex-direction: column-reverse; 
+	}
 }
